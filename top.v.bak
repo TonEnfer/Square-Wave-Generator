@@ -1,0 +1,6 @@
+module top(
+	input qa,qb,z,
+	output out
+);
+counter c();
+endmodule;
