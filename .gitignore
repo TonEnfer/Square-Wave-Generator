@@ -1,2 +1,4 @@
 *.bak
 *.bat
+./*db
+./output_files
