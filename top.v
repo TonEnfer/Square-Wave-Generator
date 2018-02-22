@@ -5,7 +5,7 @@ module top(
 	wire clk; 
 	assign clk	= (!qb)|(!qa);
 	wire[10:0] count;
-	counter c(clk,qz,count);
+	counter_pos c_pos(clk,qz,count);
 	always @(posedge clk or posedge qz)
 	begin
 		if(qz)
@@ -16,6 +16,5 @@ module top(
 				else
 					out = 0;
 		end
-		
 	end
 endmodule

@@ -62,4 +62,5 @@ set_global_assignment -name MAX7000_DEVICE_IO_STANDARD "3.3-V LVTTL"
 set_location_assignment PIN_12 -to out
 set_location_assignment PIN_13 -to qa
 set_location_assignment PIN_14 -to qb
-set_location_assignment PIN_15 -to z
+set_global_assignment -name VERILOG_FILE counter_neg.v
+set_location_assignment PIN_15 -to qz
