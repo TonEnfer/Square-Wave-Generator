@@ -4,16 +4,16 @@ module counter
 	input reset,
 	output reg[10:0] result
 );
-	initial
+
+reg[10:0] tmpRes = 11'h0;
+	
+	always @(posedge reset or posedge clk)
 	begin
-		result = 0;
+		if(reset == 1)
+			tmpRes = 0;
+		else
+			tmpRes = tmpRes + 11'd1;
+		result = tmpRes;
 	end
 	
-	always @(posedge clk or posedge reset)
-	begin
-		if(reset)
-			result = 0;
-		else
-			result = result + 10'd1;
-	end
 endmodule

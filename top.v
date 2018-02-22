@@ -1,24 +1,21 @@
 module top(
-	input qa,qb,z,
+	input qa,qb,qz,
 	output reg out
 );
-	initial
-	begin
-		out = 0;
-	end
-	wire clk;
-	assign clk	= qa|qb;
+	wire clk; 
+	assign clk	= (!qb)|(!qa);
 	wire[10:0] count;
-	counter c(clk,z,count);
-	always @(count[0])
+	counter c(clk,qz,count);
+	always @(posedge clk or posedge qz)
 	begin
-		if(count == 11'd500)
-			out = 1;
-		else if (count == 11'd1000)
+		if(qz)
 			out = 0;
-		else if (count == 11'd1500)
-			out = 1;
-		else
-			out = 0;		
+		else begin
+				if((count >= 125 && count < 250)||(count >=375))
+					out = 1;
+				else
+					out = 0;
+		end
+		
 	end
 endmodule

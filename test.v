@@ -16,7 +16,7 @@ begin
 	$display("Start test");
 	//$display("Testing");
 	clk = 0;
-	#20000
+	#50000
 	$finish;
 end
 
@@ -25,9 +25,6 @@ begin
   $dumpfile("out.vcd");
   $dumpvars(0,test);
 end
-
-initial 
-$monitor($stime,, qa,qb,z,out); 
+ 
 
 endmodule
-	

@@ -2,3 +2,4 @@
 *.bat
 *db
 output_files
+debug.log
