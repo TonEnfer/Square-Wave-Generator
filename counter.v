@@ -1,20 +1,28 @@
-module counter_pos
+module counter
 (
 	input clk,
+	input up,
+	input down,
 	input reset,
 	output reg[10:0] result
 );
-reg[10:0] tmpRes[1:0] = {11'h0,11'h0};
-	always @(clk or reset) begin
-		if (reset == 1) begin
-			tmpRes[0] = 0;
-			tmpRes[1] = 0;
-		end else begin
-			if(clk == 1)
-				tmpRes[0] = tmpRes[0]+1;
-			else if(clk == 0)
-				tmpRes[1] = tmpRes[1]+1;
+
+reg[10:0] tmpRes = 11'h0;
+	
+	always @(posedge reset or posedge clk)
+	begin
+		if(reset == 1)
+			tmpRes = 0;
+		else begin
+			if(up == 1 && down != 1)
+				tmpRes = tmpRes + 11'd1;
+			else if (up != 1 && down == 1)
+				if(tmpRes == 0)
+					tmpRes = 2000;
+				else
+					tmpRes = tmpRes - 11'd1;
 		end
-		result = tmpRes[0]+tmpRes[1];
+		result = tmpRes;
 	end
+	
 endmodule

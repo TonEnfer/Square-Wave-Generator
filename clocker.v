@@ -18,8 +18,8 @@ module clocker(input clk, output reg a,b,z);
 		else
 			z = 0;
 		case(c[1:0])
-			2'b00: begin a = 1; b = 0; end
-			2'b01: begin a = 1; b = 1; end
+			2'b00: begin a = 0; b = 0; end
+			2'b01: begin a = 0; b = 1; end
 			2'b10: begin a = 1; b = 1; end
 			2'b11: begin a = 1; b = 0; end
 		endcase

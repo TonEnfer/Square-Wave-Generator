@@ -1,0 +1,100 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\anton.samoylov\Documents\MEGA\Prog\SqWaveGen
+vclocker
+Z1 I6dn3FMC@U?O^N^1T@4KK[3
+Z2 VK[HXV=DM[JV<GTnn0IiVW0
+Z3 dC:\Users\anton.samoylov\Documents\MEGA\Prog\SqWaveGen
+Z4 w1519461524
+Z5 8C:/Users/anton.samoylov/Documents/MEGA/Prog/SqWaveGen/clocker.v
+Z6 FC:/Users/anton.samoylov/Documents/MEGA/Prog/SqWaveGen/clocker.v
+L0 1
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work test -O0
+Z9 !s100 ZRflbFjBLaDI^mmk9>R:l3
+Z10 !s108 1519545834.204000
+Z11 !s107 C:/Users/anton.samoylov/Documents/MEGA/Prog/SqWaveGen/clocker.v|
+Z12 !s90 -reportprogress|300|-work|test|C:/Users/anton.samoylov/Documents/MEGA/Prog/SqWaveGen/clocker.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcounter
+Z13 I6O=g]@CEWIJ>2AN=CVLii0
+Z14 V??W9f_dhe1[>X]`6_ZO6Z2
+R3
+Z15 w1519545358
+Z16 8C:/Users/anton.samoylov/Documents/MEGA/Prog/SqWaveGen/counter.v
+Z17 FC:/Users/anton.samoylov/Documents/MEGA/Prog/SqWaveGen/counter.v
+L0 1
+R7
+r1
+31
+R8
+Z18 !s100 C6JJZJTaDo7IOC::AJGcX0
+Z19 !s108 1519545835.247000
+Z20 !s107 C:/Users/anton.samoylov/Documents/MEGA/Prog/SqWaveGen/counter.v|
+Z21 !s90 -reportprogress|300|-work|test|C:/Users/anton.samoylov/Documents/MEGA/Prog/SqWaveGen/counter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdecoder
+Z22 IkjQRY46BmX47oF0P36VUo2
+Z23 V@oBQcmd7DjDgRl208TSNV2
+R3
+Z24 w1519544449
+Z25 8C:/Users/anton.samoylov/Documents/MEGA/Prog/SqWaveGen/decoder.v
+Z26 FC:/Users/anton.samoylov/Documents/MEGA/Prog/SqWaveGen/decoder.v
+L0 1
+R7
+r1
+31
+R8
+Z27 !s100 fEQaZejVc;4nz`1ifoBaZ2
+Z28 !s108 1519545835.493000
+Z29 !s107 C:/Users/anton.samoylov/Documents/MEGA/Prog/SqWaveGen/decoder.v|
+Z30 !s90 -reportprogress|300|-work|test|C:/Users/anton.samoylov/Documents/MEGA/Prog/SqWaveGen/decoder.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtest
+Z31 I_DaTR:V_f]b]=Kj]Infc21
+Z32 Vk<3<[f=78GX=_HO53D;7>3
+R3
+Z33 w1519218256
+Z34 8C:/Users/anton.samoylov/Documents/MEGA/Prog/SqWaveGen/test.v
+Z35 FC:/Users/anton.samoylov/Documents/MEGA/Prog/SqWaveGen/test.v
+L0 2
+R7
+r1
+31
+R8
+!i10b 1
+Z36 !s100 W[@^mHFbG<HBVlQUIEgCQ2
+!s85 0
+Z37 !s108 1519545835.835000
+Z38 !s107 C:/Users/anton.samoylov/Documents/MEGA/Prog/SqWaveGen/test.v|
+Z39 !s90 -reportprogress|300|-work|test|C:/Users/anton.samoylov/Documents/MEGA/Prog/SqWaveGen/test.v|
+!s101 -O0
+vtop
+!i10b 1
+!s100 JV@GbXI6@Lmfn<T7bQ?HB2
+I1mf2CA?WSUEFeT2gz3TZ51
+VTo3E2oT2:;R2fj4NXT05?1
+R3
+w1519545210
+8C:/Users/anton.samoylov/Documents/MEGA/Prog/SqWaveGen/top.v
+FC:/Users/anton.samoylov/Documents/MEGA/Prog/SqWaveGen/top.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1519545836.161000
+!s107 C:/Users/anton.samoylov/Documents/MEGA/Prog/SqWaveGen/top.v|
+!s90 -reportprogress|300|-work|test|C:/Users/anton.samoylov/Documents/MEGA/Prog/SqWaveGen/top.v|
+!s101 -O0
+R8

@@ -64,3 +64,7 @@ set_location_assignment PIN_13 -to qa
 set_location_assignment PIN_14 -to qb
 set_global_assignment -name VERILOG_FILE counter_neg.v
 set_location_assignment PIN_15 -to qz
+set_global_assignment -name VERILOG_FILE decoder.v
+set_global_assignment -name SMF_FILE SquareWaveGenerator.smf
+set_global_assignment -name DEVICE_MIGRATION_LIST "EPM3032ATC44-10,EPM3064ATC44-10"
+set_location_assignment PIN_40 -to clk

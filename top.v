@@ -1,17 +1,18 @@
 module top(
-	input qa,qb,qz,
+	input qa,qb,qz,clk,
 	output reg out
 );
-	wire clk; 
-	assign clk	= (!qb)|(!qa);
+
 	wire[10:0] count;
-	counter_pos c_pos(clk,qz,count);
+	wire up,down;
+	decoder d(clk,qa,qb,up,down);
+	counter c(clk,up,down,qz,count);
 	always @(posedge clk or posedge qz)
 	begin
 		if(qz)
 			out = 0;
 		else begin
-				if((count >= 125 && count < 250)||(count >=375))
+				if((count >= 500 && count < 1000)||(count >=1500))
 					out = 1;
 				else
 					out = 0;
