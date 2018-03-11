@@ -1,4 +1,0 @@
-set tool_name "ModelSim-Altera (Verilog)"
-set corner_file_list {
-	{{"Slow Model"} {SquareWaveGenerator.vo SquareWaveGenerator_v.sdo}}
-}
