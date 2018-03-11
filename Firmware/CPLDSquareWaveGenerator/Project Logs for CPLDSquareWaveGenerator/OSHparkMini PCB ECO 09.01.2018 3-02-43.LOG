@@ -1,0 +1,12 @@
+Added Component: Designator=XS3(USB2.0microB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPartNumber"; Value = "microUSB 5BFR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = "5BFR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "29.91"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND_EXT Pin=XS3-GND
+Added Pin To Net: NetName=GND_EXT Pin=XS3-SHIELD
+Added Pin To Net: NetName=GND_EXT Pin=XS3-SHIELD
+Added Pin To Net: NetName=+5V_EXT Pin=XS3-VCC
+Added Member To Class: ClassName=main Member=Component XS3 5BFR

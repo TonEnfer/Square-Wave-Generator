@@ -1,0 +1,9 @@
+Change Net Name : Old Net Name=qan New Net Name=QA_N
+Change Net Name : Old Net Name=qap New Net Name=QA_P
+Change Net Name : Old Net Name=qbn New Net Name=QB_N
+Change Net Name : Old Net Name=qbp New Net Name=QB_P
+Change Net Name : Old Net Name=zn New Net Name=Z_N
+Change Net Name : Old Net Name=zp New Net Name=Z_P
+Added Differential Pair: Name=QA
+Added Differential Pair: Name=QB
+Added Differential Pair: Name=Z

@@ -1,0 +1,21 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [CPLDSquareWaveGenerator.PrjPcb]
+   Generated File[OSHparkMini.GTL]
+   Generated File[OSHparkMini.GBL]
+   Generated File[OSHparkMini.GTO]
+   Generated File[OSHparkMini.GTP]
+   Generated File[OSHparkMini.GTS]
+   Generated File[OSHparkMini.GBS]
+   Generated File[OSHparkMini.GBP]
+   Generated File[OSHparkMini.GBO]
+   Generated File[OSHparkMini.GKO]
+   Generated File[OSHparkMini.RUL]
+   Generated File[OSHparkMini.EXTREP]
+   Generated File[OSHparkMini.REP]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 3:09:21 On 09.01.2018

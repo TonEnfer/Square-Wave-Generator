@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=zp Pin=XS1-1
+Removed Pin From Net: NetName=zn Pin=XS1-2
+Removed Pin From Net: NetName=qbp Pin=XS1-3
+Removed Pin From Net: NetName=qbn Pin=XS1-4
+Removed Pin From Net: NetName=qap Pin=XS1-5
+Removed Pin From Net: NetName=qan Pin=XS1-6
+Added Pin To Net: NetName=zn Pin=XS1-1
+Added Pin To Net: NetName=zp Pin=XS1-2
+Added Pin To Net: NetName=qbn Pin=XS1-3
+Added Pin To Net: NetName=qbp Pin=XS1-4
+Added Pin To Net: NetName=qan Pin=XS1-5
+Added Pin To Net: NetName=qap Pin=XS1-6
