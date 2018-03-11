@@ -5,8 +5,8 @@ module top(
 
 	wire[10:0] count;
 	wire up,down;
-	decoder d(clk,qa,qb,up,down);
-	counter c(clk,up,down,qz,count);
+	decoder d(clk,qa,qb,up);
+	counter c(clk,up,qz,count);
 	always @(posedge clk or posedge qz)
 	begin
 		if(qz)
